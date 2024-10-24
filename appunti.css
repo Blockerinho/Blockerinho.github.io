@@ -1,0 +1,75 @@
+html{
+	min-height: 100%;
+}
+
+body{
+	margin-left:15%; 
+	margin-right: 15%;
+	font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;	
+	font-size:20px;
+	color:#333333;
+}
+header{
+	padding-bottom:100px;
+}
+
+div.nome{
+	float:left;
+	color:#333333;
+
+}
+
+div.about{
+	float:right;
+	color:#333333;
+	
+}
+
+a{
+	text-decoration:none; 
+}
+
+a:active{
+	color: #666666;
+}
+
+a:link{
+	color:#666666;
+}
+
+a:visited{
+	color:#666666;
+}
+a:hover{
+	color:#999999;
+}
+
+div.elenco{
+	padding:30px;
+	background-color:#FAFAFA;
+	display:flex; 
+	justify-content:center; 
+	border-radius:50px;
+}
+
+footer{ 
+	text-align:center; 
+	background:#FAFAFA;
+	padding: 10px;
+	position:fixed;
+	bottom:0; 
+	left:0; 
+	right:0; 
+}
+p.chiusura{
+	display:inline-block;
+}
+
+button{
+	float:left;
+	border:none;
+	background-color:#FAFAFA;
+}
+div.bottone{
+	float:left;
+}
