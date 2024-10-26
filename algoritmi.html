@@ -1,1 +1,65 @@
 
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" type="text/css" href="css/appunti.css"> 
+    <link rel="stylesheet" href="menulaterale.css">
+	<title> BloCk.hr: Algoritmi </title> 
+</head> 
+
+<body> 
+
+    <div id="menulaterale" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="appunti_home_pag.html">Homepage</a>
+		<a href="universita.html">Universit&#224;</a>
+		<a href="about.html">About</a>
+	</div>
+	
+	<span class="menu" onclick="openNav()">&#9776;</span>
+	
+	<script>
+		function openNav() {
+		  document.getElementById("menulaterale").style.width = "250px";
+		}
+		
+		function closeNav() {
+		  document.getElementById("menulaterale").style.width = "0";
+		}
+	</script>
+
+
+	<header> 
+	<div class="nome"> 
+	<a href="index.html" > <p> BloCk.hr </p> </a> 
+	</div>
+	
+	<div class="about"> 
+	<a href="about.html"> <p> <u> About </u> </p> </a> 
+
+	</div> 
+	
+	</header> 
+	
+	<main> 
+	
+	<h1 style="margin-bottom:70px;"> Algoritmi e strutture dati </h1> 
+	<div class="elenco"> 
+	<ol> 
+	<li> <a href="primosemetrealgo.html" > Primo semestre </a> </li>
+  <li> <a href="secondosemestrealgo.html" > Secondo semestre </a> </li>
+  <li> <a href="esercizialgo.html" > Esercizi semestre </a> </li>
+  <li> <a href="progettoalgo.html" > Progetto di laboratorio </a> </li>
+	</ol> 
+	</div> 
+	
+	</main> 
+	
+</body> 
+
+<footer> 
+	<p class="chiusura"> BloCk.hr </p>
+</footer> 
+</html>
