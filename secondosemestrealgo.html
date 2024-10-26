@@ -1,1 +1,108 @@
+<!DOCTYPE html> 
+<html> 
 
+<head> 
+	<meta charset="UTF-8"> 
+	<link rel="stylesheet" href="menulaterale.css">
+	<title> BloCk.hr: Algoritmo di Dijkstra </title> 
+
+    <style>
+html{
+    height: 100%;
+}
+
+main{
+    height: 375px;
+}
+body{
+	margin-left:15%; 
+	margin-right: 15%;
+	font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;	
+	font-size:20px;
+	color:#333333;
+}
+header{
+	padding-bottom:100px;
+}
+
+div.nome{
+	float:left;
+	color:#333333;
+
+}
+
+div.about{
+	float:right;
+	color:#333333;
+	
+}
+
+a{
+	text-decoration:none; 
+}
+
+a:active{
+	color: #666666;
+}
+
+a:link{
+	color:#666666;
+}
+
+a:visited{
+	color:#666666;
+}
+a:hover{
+	color:#999999;
+}
+object{
+    height: 300%;
+    width: 100%;
+}
+    </style>
+</head> 
+
+<body> 
+
+	<div id="menulaterale" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="appunti_home_pag.html">Homepage</a>
+		<a href="universita.html">Universit&#224;</a>
+		<a href="about.html">About</a>
+	</div>
+	
+	<span class="menu" onclick="openNav()">&#9776;</span>
+	
+	<script>
+		function openNav() {
+		  document.getElementById("menulaterale").style.width = "250px";
+		}
+		
+		function closeNav() {
+		  document.getElementById("menulaterale").style.width = "0";
+		}
+	</script>
+
+
+	<header> 
+	<div class="nome"> 
+	<a href="appunti_home_pag.html" > <p> BloCk.hr </p> </a> 
+	</div>
+	
+	<div class="about"> 
+	<a href="about.html"> <p> <u> About </u> </p> </a> 
+
+	</div> 
+	
+	</header> 
+	
+	<main> 
+	
+	<h1 style="margin-bottom:70px;"> Secondo semestre di algoritmi </h1> 
+	<object data="algoritmisecondo1.pdf" type="application/pdf"> </object>
+  <object data="algoritmisecondo2.pdf" type="application/pdf"> </object>
+	</main> 
+	
+</body> 
+
+</html>
